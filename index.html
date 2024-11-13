@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- About Me Section -->
+  <section id="about" class="bg-light">
+    <div class="container centered-content">
+      <h2>Hi! I'm Chethan</h2>
+      <div class="d-flex flex-column align-items-center">
+        <img src="./assets/Profile_new.jpeg" alt="Profile Picture" class="profile-img">
+        <div class="section-content">
+          <p class="about-me-text">I'm a final year BTech Computer Science student at <strong>PES University</strong>. I'm currently working as a teaching assistant for Web Technologies at PES University. I'm a full stack developer with immense skills in DSA (Data Structures and Algorithms) and have hands-on experience in working with complex AI-ML models.</p>
+          
+          <a href="./assets/Chethan_V_Resume.pdf" class="btn btn-resume">Download Resume</a>
+          <a href="mailto:chethanv202004@gmail.com" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Experience Section -->
+   <section id="experience">
+    <div class="container centered-content">
+      <h2>Experience</h2>
+      <div class="section-content">
+        <h4>Teaching Assistant</h4>
+        <p><strong>Duration:</strong> <span id="duration"></span></p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, UI/UX</p>
+        <p>
+          <ul>
+            <li>Help students understand core web technology concepts, debug code, and improve programming skills.</li>
+            <li>Assist in designing and updating course materials, ensuring relevance to current industry trends.</li>
+            <li>Lead lab sessions, guiding students in building real-world projects using HTML, CSS, JavaScript, and React.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="bg-light">
+    <div class="container centered-content">
+      <h2>Education</h2>
+      <div class="section-content">
+        <h4>Bachelor of Technology in Computer Science</h4>
+        <p>PES University, Bangalore 2022-Current</p>
+        <p>Exploring all computer science fundamentals through academic coursework. Specialization in Machine Intelligence and Data Science.</p>
+        <h4>Intermediate and Matriculation</h4>
+        <p>Presidency School and College, Sira Nov 2019 - Dec 2021</p>
+        <p>Focus: Mathematics and Science, built strong communication skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container centered-content">
+      <h2>Projects & Blogs</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./assets/project-1.webp" class="card-img-top project-img" alt="Project Image">
+            <div class="card-body">
+              <h5 class="card-title">Travel Mate</h5>
+              <p class="card-text">An all-in-one travel information and recommendation system for all your travel needs.</p>
+              <ul>
+                <li>Code: <a href="https://github.com/chethan202004/TravelMate">GitHub Link</a></li>
+                <li>Live View: <a href="https://travel-m1e5.vercel.app/">Website Link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./assets/project-2.webp" class="card-img-top project-img" alt="Project Image">
+            <div class="card-body">
+              <h5 class="card-title">Fit Focus</h5>
+              <p class="card-text">A fitness-focused application with conversational Fit Bot for custom fitness plans.</p>
+              <ul>
+                <li>Code: <a href="https://github.com/chethanv-20/Fit_Focus">GitHub Link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./assets/project-3.webp" class="card-img-top project-img" alt="Project Image">
+            <div class="card-body">
+              <h5 class="card-title">Snoot</h5>
+              <p class="card-text">AI-ML-based toxicity detection tool with euphemism, sentiment, and context analysis.</p>
+              <ul>
+                <li>Code: <a href="https://github.com/chethanv-20/snoot">GitHub Link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Card -->
+        <div class="col-md-4">
+          <div class="card blog-card">
+            <div class="card-body">
+              <h5 class="card-title">Networking OSI model layers explained</h5>
+              <p class="card-text">An article that explains all layers of the OSI model in a simple and efficient way.</p>
+              <a href="https://medium.com/@chethanv202004" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light">
+    <div class="container centered-content">
+      <h2>Skills</h2>
+      <div class="section-content">
+        <p><strong>Programming Languages:</strong> C, C++ (OOP), Python</p>
+        <p><strong>Web Development:</strong> HTML, CSS, JavaScript, Node.js, Express.js, EJS</p>
+        <p><strong>Technologies:</strong> Docker, Kubernetes, GitHub, Vercel</p>
+        <p><strong>Core Courses:</strong> Data Structures and Algorithms, Problem Solving with C and C++, Web Technologies, Artificial Intelligence</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container centered-content">
+      <h2>Contact Me</h2>
+      <p>If you want to connect or collaborate mail me </p>
+      <p>Please feel free to connect me on my socials</p>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/chethanv20"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/chethanv20"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:chethanv202004@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.github.com/chethan202004"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extra Activities Section -->
+  <section id="extras" class="bg-light">
+    <div class="container centered-content">
+      <h2>Extras</h2>
+      <p>I enjoy playing cricket, gardening, and reading some time.</p>
+      <p>I love travelling and photography.</p>
+      <p class="pic-links">View all my clicks <a href="https://in.pinterest.com/chethanrocking2004/">Pinterest</a> <a href="https://www.pexels.com/@chethan-453707654/">Pexels</a> </p>
+      <h5 style="color: rgb(255, 0, 0);">Some of my best clicks</h5>  
+      <div class="extra-activities">
+        <!-- First Gallery Slider -->
+        <div class="gallery-container">
+          <img src="assets/gallery 1.jpg" class="gallery-image active" alt="Gallery Image 1">
+          <img src="assets/gallery 2.jpg" class="gallery-image" alt="Gallery Image 2">
+          <img src="assets/gallery 3.jpg" class="gallery-image" alt="Gallery Image 3">
+        </div>
+        <!-- Second Gallery Slider -->
+        <div class="gallery-container">
+          <img src="assets/gallery 4.jpg" class="gallery-image active" alt="Gallery Image 4">
+          <img src="assets/gallery 5.jpg" class="gallery-image" alt="Gallery Image 5">
+          <img src="assets/gallery 6.jpg" class="gallery-image" alt="Gallery Image 6">
+          <img src="assets/gallery 7.jpg" class="gallery-image" alt="Gallery Image 7">
+        </div>
+       
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript for Synchronized Gallery Rotation -->
+  <script src="/script.js"></script>
+</body>
+</html>
